@@ -69,7 +69,7 @@ body{
 /*Construction Section Style*/
 
 .const-msg-container{
-    background-image: url("https://raw.githubusercontent.com/MttGhn/wsite/master/img/Code.png");
+    background-image: url("https://raw.githubusercontent.com/MttGhn/wsite/master/img/code_background.png");
     filter: blur(5px);
     background-size: cover;
     background-position: center;
