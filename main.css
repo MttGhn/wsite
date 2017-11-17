@@ -70,6 +70,7 @@ body{
 
 .const-msg-container{
     background-image: url("https://raw.githubusercontent.com/MttGhn/wsite/master/img/Code.png");
+    filter: blur(5px);
     background-size: cover;
     background-position: center;
     width: 100vw;
