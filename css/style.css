@@ -15,7 +15,7 @@ p{
 }
 
 .titre {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 
 }
 
@@ -104,8 +104,7 @@ header {
     background-color:  #17365d;
     color: #eeeeec;
     font-size: 1.2rem;
-    border-radius: 0.5rem ;
-    margin-top: 5rem;
+    border-radius: 0.5rem;
 }
 
 .btn3:hover {
@@ -133,16 +132,17 @@ label{
 }
 
 .disclamer {
-    font-size: 3.7rem;
+    font-size: 2.5rem;
     color:#17365d;
-    line-height: 4rem;
+    line-height: 2.5rem;
+    
 }
 
 .disclamer hl {
     color: #268164;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     font-weight: 700; 
-    line-height: 4rem;
+    line-height: 2.5rem;
 }
 
 
@@ -316,10 +316,48 @@ footer{
 
 
 Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+    
+.disclamer {
+    font-size: 2.5rem;
+    color:#17365d;
+    line-height: 25rem;
+    
+}
+
+.disclamer hl {
+    color: #268164;
+    font-size: 2.5rem;
+    font-weight: 600; 
+    line-height: 2.5rem;
+} 
+
+.titre {
+    font-size: 2.5rem;
+
+}
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+    
+.disclamer {
+    font-size: 3.5rem;
+    color:#17365d;
+    line-height: 3.5rem;
+    
+}
+
+.disclamer hl {
+    color: #268164;
+    font-size: 3.5rem;
+    font-weight: 700; 
+    line-height: 3.5rem;
+}
+.titre {
+    font-size: 3.5rem;
+
+} }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
