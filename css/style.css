@@ -172,11 +172,6 @@ section {
     padding-top: 100px;
 
 }
-
-/* Parce que nous avons la conviction que les meilleures technologies sont celles qui ne se voient pas, 
-					nous avons développé une intelligence capable de s'adapter seule à toutes les 
-					configurations, par le biais de capteurs minuscules. */
-
 /* SERVICES */
 
 .servcont {
@@ -192,7 +187,7 @@ section {
 }
 
 .servimg1 {
-    background-image: url("../img/s1.PNG");
+    background-image: url("../img/s1.png");
     background-position: center;
     background-size: cover;
     min-height: 25vh;
@@ -233,7 +228,7 @@ section {
 
 /* TECHNOLOGIE */
 .techdd{
-    background-image: url("../img/bvc.PNG");
+    background-image: url("../img/bvc.png");
     background-position: center;
     background-size: cover;
     min-height:300px;
