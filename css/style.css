@@ -376,6 +376,10 @@ Small devices (landscape phones, 576px and up)
     padding-left: 10%;
     padding-right: 5%;
 } 
-
+.servcont {
+    background-color: #17365d;
+    color : #ffffff;
+    border : solid 5px  #17365d;
+}
 
 }
