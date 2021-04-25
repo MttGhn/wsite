@@ -1,0 +1,343 @@
+body {
+    font-size: 16px !important;
+    color:#505050; 
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    background-color: #eeeeec;
+} 
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
+
+p{
+    text-align: justify;
+}
+
+.titre {
+    font-size: 3.5rem;
+
+}
+
+a {
+    color:#353535; 
+    text-decoration: none;
+}
+
+a:hover{
+    color:#353535; 
+    text-decoration: none;
+}
+
+
+
+img{
+    height: 60px;
+}
+
+code{
+    color: #c96f6f;
+}
+
+* NAVBAR */
+.navlogo {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+
+
+a.hide {
+    color::#353535;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.co {
+    color::#353535;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+ul.navbar-nav {
+letter-spacing: 0.05em;
+font-size: 24px;
+font-weight: 600;
+}
+
+
+
+.autohide {
+    background-color: #eeeeec;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.scrolled-down {
+    transform:translateY(-100%); transition: all 0.5s ease-in-out;
+}
+
+
+.scrolled-up {
+    transform:translateY(0); transition: all 0.15s ease-in-out;
+}
+/* /NAVBAR/ */
+
+
+
+/* HEADER */
+header {
+    height: 100vh;}
+    /* background: rgb(238,238,236);
+    background: linear-gradient(180deg, rgba(238,238,236,1) 0%, rgba(240,254,255,1) 100%); } */
+
+.btn3 {
+    background-color:  #17365d;
+    color: #eeeeec;
+    font-size: 1.2rem;
+    border-radius: 0.5rem ;
+    margin-top: 5rem;
+}
+
+.btn3:hover {
+    color: #ffffff; 
+    text-shadow: #fff 0.3px 0 0px;
+}
+ 
+label{
+    color: #eeeeec;
+}
+
+.anoc {
+    font-size:1.5rem;
+    background-image: url("../img/es.png");
+    color:#eeeeec;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius:100rem;
+}
+
+.disclamer {
+    font-size: 3.7rem;
+    color:#17365d;
+    line-height: 4rem;
+}
+
+.disclamer hl {
+    color: #268164;
+    font-size: 4.5rem;
+    font-weight: 700; 
+    line-height: 4rem;
+}
+
+
+
+.imgh {
+    max-height: 85vh;
+
+}
+
+.group {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #7f7fbb;
+    border-radius: 1.5rem;
+    height: 84vh;
+}
+
+/* /HEADER/ */
+
+
+
+
+section {    
+    min-height: 50vh;
+    padding-bottom:10%;
+    padding-top: 100px;
+
+}
+
+/* Parce que nous avons la conviction que les meilleures technologies sont celles qui ne se voient pas, 
+					nous avons développé une intelligence capable de s'adapter seule à toutes les 
+					configurations, par le biais de capteurs minuscules. */
+
+/* SERVICES */
+
+.servcont {
+    background-color: #17365d;
+    color : #ffffff;
+    border : solid 5px  #17365d;
+}
+
+
+.servtitre {
+    background-color: #eeeeec;
+    color:#17365d;
+}
+
+.servimg1 {
+    background-image: url("../img/s1.PNG");
+    background-position: center;
+    background-size: cover;
+    min-height: 25vh;
+}
+
+
+.servimg2 {
+    background-image: url("../img/s2.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 25vh;
+}
+
+
+.servimg3 {
+    background-image: url("../img/s3.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 25vh;
+}
+.services h5{
+    padding-left: 2rem !important;
+    padding-right:2rem;
+    text-align: justify; 
+}
+/* /SERVICES/ */
+
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.accordion-button {
+    color: #ffffff;
+    
+}
+
+/* TECHNOLOGIE */
+.techdd{
+    background-image: url("../img/bvc.PNG");
+    background-position: center;
+    background-size: cover;
+    min-height:300px;
+    
+}
+
+.techrow{
+    border:solid 5px #1c5f4a;
+}
+
+.techg h1{
+    color:#1c5f4a;
+}
+/* /TECHNOLOGIE/ */
+
+
+
+
+/* VALEURS */
+.valpic{
+    background-image: url("../img/header2.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    
+}
+
+.valcont{
+    border:solid 5px #990033;
+    background-color: #990033;
+    color:#ffffff;
+}
+
+
+/* /veleurs/ */
+
+
+
+
+/* CONTACT */
+.contpic{
+    background-image: url("../img/enveloppe.png");
+    background-position: center;
+    background-size:60%;
+    background-repeat: no-repeat;
+    
+
+    
+}
+
+.contcont{
+     border:solid 5px  #ebbd38 ;
+    background-color:  #ebbd38 ;    
+    /* border:solid 5px  #deb500 ;
+    background-color:  #deb500 ; */
+    color:#ffffff;
+}
+
+
+/* /contact/ */
+
+h5{
+    text-align: justify;
+}
+
+form{
+    color: #505050;
+}
+
+/* FOOTER */
+
+footer{
+    
+}
+
+.map{
+    font-size: 1rem;
+    list-style: none;
+}
+
+/* /FOOTER/ */
+
+
+
+
+
+Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    section{
+        padding-left: 13%;
+        padding-right: 13%;
+    } 
+ header{
+    padding-left: 10%;
+    padding-right: 5%;
+} 
+
+
+}
