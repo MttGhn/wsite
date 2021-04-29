@@ -29,17 +29,15 @@ a:hover{
     text-decoration: none;
 }
 
-
-
-img{
-    height: 60px;
+img.navlogo{
+    height: 40px;
 }
 
 code{
     color: #c96f6f;
 }
 
-* NAVBAR */
+/* NAVBAR */
 .navlogo {
     height: 50px;
     margin-top: 10px;
@@ -329,7 +327,6 @@ Small devices (landscape phones, 576px and up) */
 
 .titre {
     font-size: 2.5rem;
-
 }
 }
 
@@ -374,6 +371,24 @@ Small devices (landscape phones, 576px and up) */
     background-color: #17365d;
     color : #ffffff;
     border : solid 5px  #17365d;
+}
+
+.disclamer {
+    font-size: 3.9vw;
+    color:#17365d;
+    line-height: 4vw;
+    
+}
+
+.disclamer hl {
+    color: #268164;
+    font-size: 3.9vw;
+    font-weight: 700; 
+    line-height: 4vw;
+}
+.titre {
+    font-size: 5vw;
+
 }
 
 }
