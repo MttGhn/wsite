@@ -48,7 +48,7 @@ code{
 
 
 a.hide {
-    color::#353535;
+    color:#353535;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 400;
@@ -56,7 +56,7 @@ a.hide {
 
 
 .co {
-    color::#353535;
+    color:#353535;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
@@ -299,11 +299,6 @@ form{
 }
 
 /* FOOTER */
-
-footer{
-    
-}
-
 .map{
     font-size: 1rem;
     list-style: none;
@@ -314,14 +309,14 @@ footer{
 
 
 
-
-Small devices (landscape phones, 576px and up)
+/* 
+Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     
 .disclamer {
     font-size: 2.5rem;
-    color:#17365d;
-    line-height: 25rem;
+    color: #17365d;
+    line-height: 2.5rem;
     
 }
 
@@ -360,10 +355,10 @@ Small devices (landscape phones, 576px and up)
 } }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {  }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {  }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
