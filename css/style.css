@@ -19,7 +19,11 @@ p{
 
 }
 
-a {
+.prtnr{ 
+    max-height: 200px;
+}
+
+a {s
     color:#353535; 
     text-decoration: none;
 }
