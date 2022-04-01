@@ -211,9 +211,9 @@ section {
     min-height: 25vh;
 }
 .services h5{
-    padding-left: 2rem !important;
-    padding-right:2rem;
-    text-align: justify; 
+    padding-left: 0rem !important;
+    padding-right:0rem;
+    text-align: inherit; 
 }
 /* /SERVICES/ */
 
@@ -298,7 +298,7 @@ section {
 /* /contact/ */
 
 h5{
-    text-align: justify;
+    text-align: inherit;
 }
 
 form{
@@ -337,6 +337,11 @@ Small devices (landscape phones, 576px and up) */
 .titre {
     font-size: 2.5rem;
 }
+
+h5{
+    text-align: justify;
+}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -358,16 +363,52 @@ Small devices (landscape phones, 576px and up) */
 .titre {
     font-size: 3.5rem;
 
-} }
+}
+
+h5{
+    text-align: justify;
+}
+
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+    h5{
+        text-align: justify;
+    }
+
+    .services h5{
+    padding-left: 2rem !important;
+    padding-right:2rem;
+    text-align: justify; 
+} }
+
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {
+    h5{
+        text-align: justify;
+    }
+    
+    .services h5{
+    padding-left: 2rem !important;
+    padding-right:2rem;
+    text-align: justify; 
+} }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
+
+    h5{
+        text-align: justify;
+    }
+
+    .services h5{
+        padding-left: 2rem !important;
+        padding-right:2rem;
+        text-align: justify; 
+    }
+
     section{
         padding-left: 13%;
         padding-right: 13%;
