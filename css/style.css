@@ -188,7 +188,7 @@ section {
     color:#17365d;
 }
 
-.servimg1 {
+.servpic1 {
     background-image: url("../img/s1.png");
     background-position: center;
     background-size: cover;
@@ -196,7 +196,7 @@ section {
 }
 
 
-.servimg2 {
+.servpic2 {
     background-image: url("../img/s2.png");
     background-position: center;
     background-size: cover;
@@ -204,7 +204,7 @@ section {
 }
 
 
-.servimg3 {
+.servpic3 {
     background-image: url("../img/extra.png");
     background-position: center;
     background-size: cover;
@@ -234,7 +234,7 @@ section {
     background-color: transparent;
 }
 
-.techdd{
+.techpic{
     background-image: url("../img/bvc.png");
     background-position: center;
     background-size: cover;
@@ -250,8 +250,10 @@ section {
     color:#1c5f4a;
 }
 /* /TECHNOLOGIE/ */
-
-
+.techtxt{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
 
 /* VALEURS */
@@ -262,12 +264,17 @@ section {
     min-height: 300px;
     
 }
+.valtxt {
+    padding-top: 3rem;
+    padding-bottom: 3rem; 
+}
 
 .valcont{
     border:solid 5px #990033;
     background-color: #990033;
     color:#ffffff;
 }
+
 
 
 /* /veleurs/ */
@@ -326,6 +333,13 @@ Small devices (landscape phones, 576px and up) */
     line-height: 2.5rem;
     
 }
+.techtxt{
+    padding: 3rem;
+}
+
+.valtxt {
+    padding: 3rem; 
+}
 
 .disclamer hl {
     color: #268164;
@@ -346,7 +360,12 @@ h5{
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    
+
+.servtxt {
+        padding-left: 2rem;
+        padding-right: 2rem;
+}
+
 .disclamer {
     font-size: 3.5rem;
     color:#17365d;
@@ -389,12 +408,7 @@ h5{
     h5{
         text-align: justify;
     }
-    
-    .services h5{
-    padding-left: 2rem !important;
-    padding-right:2rem;
-    text-align: justify; 
-} }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
@@ -403,17 +417,11 @@ h5{
         text-align: justify;
     }
 
-    .services h5{
-        padding-left: 2rem !important;
-        padding-right:2rem;
-        text-align: justify; 
-    }
-
-    section{
+section{
         padding-left: 13%;
         padding-right: 13%;
     } 
- header{
+header{
     padding-left: 10%;
     padding-right: 5%;
 } 
