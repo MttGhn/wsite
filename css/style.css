@@ -19,6 +19,10 @@ p{
 
 }
 
+.prtnr{ 
+    max-height: 200px;
+}
+
 a {
     color:#353535; 
     text-decoration: none;
@@ -29,17 +33,15 @@ a:hover{
     text-decoration: none;
 }
 
-
-
-img{
-    height: 60px;
+img.navlogo{
+    height: 40px;
 }
 
 code{
     color: #c96f6f;
 }
 
-* NAVBAR */
+/* NAVBAR */
 .navlogo {
     height: 50px;
     margin-top: 10px;
@@ -48,7 +50,7 @@ code{
 
 
 a.hide {
-    color::#353535;
+    color:#353535;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 400;
@@ -56,7 +58,7 @@ a.hide {
 
 
 .co {
-    color::#353535;
+    color:#353535;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
@@ -147,7 +149,6 @@ label{
 
 
 
-
 .imgh {
     max-height: 85vh;
 
@@ -179,7 +180,6 @@ section {
     background-color: #17365d;
     color : #ffffff;
     border : solid 5px  #17365d;
-    margin-top: 10rem;
 }
 
 
@@ -188,7 +188,7 @@ section {
     color:#17365d;
 }
 
-.servimg1 {
+.servpic1 {
     background-image: url("../img/s1.png");
     background-position: center;
     background-size: cover;
@@ -196,7 +196,7 @@ section {
 }
 
 
-.servimg2 {
+.servpic2 {
     background-image: url("../img/s2.png");
     background-position: center;
     background-size: cover;
@@ -204,16 +204,16 @@ section {
 }
 
 
-.servimg3 {
-    background-image: url("../img/s3.png");
+.servpic3 {
+    background-image: url("../img/extra.png");
     background-position: center;
     background-size: cover;
     min-height: 25vh;
 }
 .services h5{
-    padding-left: 2rem !important;
-    padding-right:2rem;
-    text-align: justify; 
+    padding-left: 0rem !important;
+    padding-right:0rem;
+    text-align: inherit; 
 }
 /* /SERVICES/ */
 
@@ -229,7 +229,12 @@ section {
 }
 
 /* TECHNOLOGIE */
-.techdd{
+
+.accordion-button ::selection{
+    background-color: transparent;
+}
+
+.techpic{
     background-image: url("../img/bvc.png");
     background-position: center;
     background-size: cover;
@@ -245,8 +250,12 @@ section {
     color:#1c5f4a;
 }
 /* /TECHNOLOGIE/ */
-
-
+.techtxt{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color:#1c5f4a ;
+    color:#ffffff;
+}
 
 
 /* VALEURS */
@@ -257,12 +266,17 @@ section {
     min-height: 300px;
     
 }
+.valtxt {
+    padding-top: 3rem;
+    padding-bottom: 3rem; 
+}
 
 .valcont{
     border:solid 5px #990033;
     background-color: #990033;
     color:#ffffff;
 }
+
 
 
 /* /veleurs/ */
@@ -293,7 +307,7 @@ section {
 /* /contact/ */
 
 h5{
-    text-align: justify;
+    text-align: inherit;
 }
 
 form{
@@ -301,11 +315,6 @@ form{
 }
 
 /* FOOTER */
-
-footer{
-    
-}
-
 .map{
     font-size: 1rem;
     list-style: none;
@@ -313,18 +322,27 @@ footer{
 
 /* /FOOTER/ */
 
+.email-img {
+    height:1.2rem;
+    width:auto;
+}
 
 
-
-
-Small devices (landscape phones, 576px and up)
+/* 
+Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     
 .disclamer {
     font-size: 2.5rem;
-    color:#17365d;
-    line-height: 25rem;
-    
+    color: #17365d;
+    line-height: 2.5rem;
+}
+.techtxt{
+    padding: 3rem;
+}
+
+.valtxt {
+    padding: 3rem; 
 }
 
 .disclamer hl {
@@ -336,13 +354,22 @@ Small devices (landscape phones, 576px and up)
 
 .titre {
     font-size: 2.5rem;
-
 }
+
+h5{
+    text-align: justify;
+}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    
+
+.servtxt {
+        padding-left: 2rem;
+        padding-right: 2rem;
+}
+
 .disclamer {
     font-size: 3.5rem;
     color:#17365d;
@@ -359,96 +386,49 @@ Small devices (landscape phones, 576px and up)
 .titre {
     font-size: 3.5rem;
 
-} }
+}
+
+h5{
+    text-align: justify;
+}
+
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {     
+@media (min-width: 992px) { 
+    h5{
+        text-align: justify;
+    }
 
-section{
-    padding-left: 10%;
-    padding-right: 10%;
-} 
+    .services h5{
+    padding-left: 2rem !important;
+    padding-right:2rem;
+    text-align: justify; 
+} }
 
-header{
-padding-left: 10%;
-padding-right: 5%;
-} 
-
-.servcont {
-background-color: #17365d;
-color : #ffffff;
-border : solid 5px  #17365d;
-}
-
-.disclamer {
-color:#17365d;
-font-size: 4rem;
-line-height: 4rem;
-margin-bottom: 2rem;
-}
-
-.disclamer hl {
-color: #268164;
-font-size: 4.5rem;
-line-height: 4rem;
-}
-
-.titre {
-font-size: 5rem;
-} 
-}
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    
-    section{
-        padding-left: 10%;
-        padding-right: 10%;
-} 
-
- header{
-    padding-left: 10%;
-    padding-right: 5%;
-} 
-
-.servcont {
-    background-color: #17365d;
-    color : #ffffff;
-    border : solid 5px  #17365d;
-}
-
-.disclamer {
-    color:#17365d;
-    font-size: 4rem;
-    line-height: 4rem;
-    margin-bottom: 2rem;
-    
-}
-
-.disclamer hl {
-    color: #268164;
-    font-size: 4.5rem;
-    line-height: 4rem;
-}
-
-.titre {
-    font-size: 5rem;
-}
+@media (min-width: 1200px) {
+    h5{
+        text-align: justify;
+    }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
+@media (min-width: 1400px) { 
+
+    h5{
+        text-align: justify;
+    }
 
 section{
         padding-left: 13%;
         padding-right: 13%;
-} 
-
- header{
+    } 
+header{
     padding-left: 10%;
     padding-right: 5%;
 } 
-
 .servcont {
     background-color: #17365d;
     color : #ffffff;
@@ -456,20 +436,21 @@ section{
 }
 
 .disclamer {
+    font-size: 3.9vw;
     color:#17365d;
-    font-size: 4.5rem;
-    line-height: 5rem;
-    margin-bottom: 2rem;
+    line-height: 4vw;
     
 }
 
 .disclamer hl {
     color: #268164;
-    font-size: 5.5rem;
-    line-height: 5rem;
+    font-size: 3.9vw;
+    font-weight: 700; 
+    line-height: 4vw;
+}
+.titre {
+    font-size: 4vw;
+
 }
 
-.titre {
-    font-size: 5rem;
-}
 }
