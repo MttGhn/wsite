@@ -284,15 +284,7 @@
 					<h1 class="titre">Contact</h1>
 					<br>
 					<h4>Vous avez une question à poser à notre équipe ?</h4>
-					<br>
-
-					<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-					<script>
-					  function onSubmit(token) {
-						document.getElementById("contact-form").submit();
-					  }
-					</script>
-			   
+					<br>			   
 					<form action="https://app.99inbound.com/api/e/Hunnc3L4" id="contact-form" method="POST" target="_blank">
 
 						<label for="email">Nom</label>
@@ -461,7 +453,12 @@
 
 
 	</div>
-
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+					  function onSubmit(token) {
+						document.getElementById("contact-form").submit();
+					  }
+					</script>
 </body>
 
 </html>
